@@ -2,16 +2,12 @@
 
 buildscript {
     repositories {
-        maven {
-            url 'F:/projects/Android/myo-android-sdk-0.10.0/myorepository'
 
-        }
         jcenter()
         google()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.1.2'
-        //compile 'com.thalmic:myosdk:0.10.+@aar'
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
